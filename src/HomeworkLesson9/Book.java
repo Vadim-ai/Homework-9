@@ -3,7 +3,7 @@ package HomeworkLesson9;
 public class Book {
     private String nameOfBook;
     private int yearOfPublication;
-    private Author author;
+    public Author author;
 
     public Book(String nameOfBook, int yearOfPublication, Author author) {
         this.nameOfBook = nameOfBook;
